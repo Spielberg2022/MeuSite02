@@ -3,12 +3,6 @@
     margin: 0 auto;
 }
 
-div {
-    width: 425px;
-    float: left;
-    margin-left: 40px;
-}
-
 h1 {
     color: blue
 }
@@ -23,20 +17,90 @@ a {
     color: darkgreen;
 }
 
-    a:hover {
-        color: blue;
-    }
+a:hover {
+    color: blue;
+}
 
-    a:visited {
-        color: blueviolet;
-    }
+a:visited {
+    color: blueviolet;
+}
+
+header {
+    background-color: lightgray;
+    padding: 15px 0 25px 0;
+}
+
+hgroup#principal {
+    width: 936px;
+    text-align: center;
+    margin: 40px;
+}
+
+hgroup#principal{
+
+}
+
+hgroup#principal h2{
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+section {
+    display: inline-block;
+    background-color: gainsboro;
+    padding: 40px 0;
+}
+
+article {
+    width: 425px;
+    float: left;
+    margin-left: 40px;
+}
+
+article h1{
+    font-size: 25px;
+}
+
+article p{
+    line-height: 25px;
+}
+
+footer{
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    margin-top: -4px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a::before{
+    /* Alt + 0187*/
+    content: ">> ";
+    color: red;
+}
+
+footer a:visited {
+    color: white;
+}
 
 div#principal {
     width: 936px;
     text-align: center
 }
 
-#foto-piramide {
+figure#foto-piramide{
+    margin: 0;
+}
+
+figure#foto-piramide img{
     width: 425px;
 }
 
@@ -45,12 +109,13 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     margin-left: 60px;
+    text-align: center;
 }
 
 nav#menu li{
     display: inline-block;
     background-color:aquamarine;
-    padding: 15px 25px;
+    padding: 15px 45px;
     margin: -2px;
 }
 
@@ -72,9 +137,9 @@ nav#menu a:visited{
 }
 
 nav#menu img{
-    width: 50px;
+    width: 48px;
     float: left;
     position: absolute;
-    top: 13px;
+    top: 29px;
     margin-left: 25px;
 }
