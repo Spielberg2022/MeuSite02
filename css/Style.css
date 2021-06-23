@@ -1,14 +1,18 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Assistant:wght@300&display=swap');
+
+body {
     width: 936px;
     margin: 0 auto;
 }
 
 h1 {
-    color: blue
+    color: blue;
+    font-family: 'Abril Fatface', cursive;
 }
 
 p {
-    font-size: 14px
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
 }
 
 a {
@@ -91,6 +95,11 @@ footer a:visited {
     color: white;
 }
 
+.full-screen {
+    width: 896px;
+    text-align:center;
+}
+
 div#principal {
     width: 936px;
     text-align: center
@@ -142,4 +151,8 @@ nav#menu img{
     position: absolute;
     top: 29px;
     margin-left: 25px;
+}
+
+nav#menu li.ativo a {
+    color: blueviolet;
 }

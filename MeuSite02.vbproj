@@ -72,6 +72,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contato.html" />
     <Content Include="css\Style.css" />
     <Content Include="images\logotipomaia.png" />
     <Content Include="index.html" />

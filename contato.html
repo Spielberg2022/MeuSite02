@@ -13,10 +13,10 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Legislação</a></li>
-                <li class="ativo">
+                <li>
                     <a href="QuemSomos.html">Quem Somos</a>
                 </li>
-                <li><a href="contato.html">Contato</a></li>
+                <li class="ativo"><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
 
@@ -28,10 +28,18 @@
     </header>
     <section>
         <article class="full-screen">
-            <h1>Quem somos</h1>
-            <p>
-                Esta é a página quem somos!
-            </p>
+            <h1>Contato</h1>
+            <form id="formContato">
+                <p><label for="nome">Nome</label><input id="nome" type="text" size="20" maxlength="50" /></p>
+                <p><label for="email">Email</label><input id="email" type="email" size="20" maxlength="50" /></p>
+                <p>
+                    <label>Sexo</label><br/>
+                    <input id="feminino" type="radio" /><label for="feminino">Feminino</label><br/>
+                    <input id="masculino" type="radio" /><label for="masculino">Masculino</label>
+                </p>
+                <p><label for="nascimento">Nascimento</label><input id="nascimento" type="date" /></p>
+                <p><input id="notificacao" type="checkbox" /><label for="notificacao">Autorizo enviar notificações</label></p>
+            </form>
         </article>
     </section>
 
