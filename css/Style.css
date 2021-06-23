@@ -156,3 +156,56 @@ nav#menu img{
 nav#menu li.ativo a {
     color: blueviolet;
 }
+
+/* form contato.html */
+#container {
+    max-height: 400px;
+    width: 100%;
+    margin:0 auto;
+}
+
+#formContato {
+    background: #F9F9F9;
+    padding: 25px 45px 25px 25px;
+    margin: 50px 0;
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+}
+
+#formContato input[type="text"],
+#formContato input[type="email"]{
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#formContato button[type="submit"]{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#formContato button[type="submit"]:hover {
+    background: #43A047;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#formContato iput:focus{
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+#formContato fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}

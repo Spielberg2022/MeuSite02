@@ -29,17 +29,20 @@
     <section>
         <article class="full-screen">
             <h1>Contato</h1>
-            <form id="formContato">
-                <p><label for="nome">Nome</label><input id="nome" type="text" size="20" maxlength="50" /></p>
-                <p><label for="email">Email</label><input id="email" type="email" size="20" maxlength="50" /></p>
-                <p>
-                    <label>Sexo</label><br/>
-                    <input id="feminino" type="radio" /><label for="feminino">Feminino</label><br/>
-                    <input id="masculino" type="radio" /><label for="masculino">Masculino</label>
-                </p>
-                <p><label for="nascimento">Nascimento</label><input id="nascimento" type="date" /></p>
-                <p><input id="notificacao" type="checkbox" /><label for="notificacao">Autorizo enviar notificações</label></p>
-            </form>
+            <div id="container">
+                <form id="formContato">
+                    <p><label for="nome">Nome</label><input id="nome" placeholder="informe seu nome" type="text" size="20" maxlength="50" /></p>
+                    <p><label for="email">Email</label><input id="email" placeholder="informe seu email" type="email"size="20" maxlength="50" /></p>
+                    <fieldset>
+                        <legend>Sexo</legend><br />
+                        <input id="feminino" type="radio" /><label for="feminino">Feminino</label><br />
+                        <input id="masculino" type="radio" /><label for="masculino">Masculino</label>
+                    </fieldset>
+                    <p><label for="nascimento">Nascimento</label><input id="nascimento" type="date" /></p>
+                    <p><input id="notificacao" type="checkbox" /><label for="notificacao">Autorizo enviar notificações</label></p>
+                    <button id="contato-submit" type="submit">Enviar</button>
+                </form>
+            </div>
         </article>
     </section>
 
